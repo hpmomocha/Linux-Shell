@@ -1,19 +1,19 @@
 #!/bin/bash
 
 # [ expression ] -> [ 1 -eq 1 ]
-read -p "请输入年龄:" age
+read -p "Please input your age:" age
 if [ $age -eq 30 ]; then
-	echo "而立之年!"
+	echo "You are 30 years old!"
 fi
 
 # [[ expression ]] -> [[ 2 -eq 2 ]]
-read -p "请输入年龄:" age
+read -p "Please input your age:" age
 if [ $age -eq 40 ]; then
-	echo "不惑之年!"
+	echo "You are 40 years old!"
 fi
 
 # test expression -> test 1 -eq 1
-read -p "请输入年龄:" age
+read -p "Please input your age:" age
 if test $age -eq 50 ; then
-	echo "知天命!"
+	echo "You are 50 years old!"
 fi
