@@ -2,7 +2,7 @@
 
 # Shell正则表达式分为两种：
 # 基础正则表达式：BRE（basic regular express）
-# 扩展正则表达式：ERE（extend regular express），扩展的表达式有+、?、|和()
+# 扩展正则表达式：ERE（extend regular express），扩展的表达式有+、?、|和()、{}
 
 # -e选项： enable interpretation of backslash escapes
 # -E选项： disable interpretation of backslash escapes (default)
